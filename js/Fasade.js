@@ -5,41 +5,41 @@
     this.fetchReq = new FetchReq();
   }
 
-  async postTaskRequest(user) {
+   postTaskRequest(user) {
     try {
-      await this.fetchReq.postTask(user);
+       this.fetchReq.postTask(user);
     } catch (error) {
       console.error(error);
     }
   }
 
-  async getTaskRequest(taskId) {
+   getTaskRequest(taskId) {
     try {
-      await this.fetchReq.getTask(taskId);
+       this.fetchReq.getTask(taskId);
     } catch (error) {
       console.error(error);
     }
   }
 
-  async getAllTasksRequest(isImportant, name_like, isCompleted) {
+   getAllTasksRequest(isImportant, name_like, isCompleted) {
     try {
-      await this.fetchReq.getAllTask(isImportant, name_like, isCompleted);
+       this.fetchReq.getAllTask(isImportant, name_like, isCompleted);
     } catch (error) {
       console.error(error);
     }
   }
 
-  async patchTaskRequest(user, taskId) {
+   patchTaskRequest(user, taskId) {
     try {
-      await this.fetchReq.patchTask(user, taskId);
+       this.fetchReq.patchTask(user, taskId);
     } catch (error) {
       console.error(error);
     }
   }
 
-  async deleteTaskRequest(taskId) {
+   deleteTaskRequest(taskId) {
     try {
-      await this.fetchReq.deleteTask(taskId);
+       this.fetchReq.deleteTask(taskId);
     } catch (error) {
       console.error(error);
     }

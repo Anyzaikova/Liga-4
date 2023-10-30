@@ -92,7 +92,7 @@ class XMLHttpReq {
 
 
     //DELETE 
-    static async deletehTask (taskId) {
+    static async deleteTask (taskId) {
       return new Promise((resolve, reject)=> {
         let _deleteTask = this._url + `/tasks/${taskId}`;
         const xhr = new XMLHttpRequest();

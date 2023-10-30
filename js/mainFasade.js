@@ -2,10 +2,10 @@ let fasade=new Fasade();
 
 // POST FETCH
 let user = new User('lolo','sad', false);
-fasade.postTaskRequest(user);
+fasade.postTaskRequest (user);
 
 // GET FETCH
-fasade.getTaskRequest(777);
+fasade.getTaskRequest (777);
 
  // GET ALL TASKS FETCH
 fasade.getAllTasksRequest(true,"",true);

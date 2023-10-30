@@ -15,5 +15,5 @@ XMLHttpReq.patchTask(user3,781);
 
 
 // DELETE XMLHttpRequest
-XMLHttpReq.deletehTask(780);
+XMLHttpReq.deleteTask(780);
 
